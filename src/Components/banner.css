@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+/* font-family: "Poppins", sans-serif; */
+.banner {
+  width: 100%;
+  height: 700px;
+  background: linear-gradient(#eae6ff, #e6fcff) no-repeat;
+  position: relative;
+  /* background: red; */
+}
+
+.left {
+  position: absolute;
+  /* right: 50%; */
+  top: 4%;
+  bottom: 0;
+  left: 15%;
+
+  padding-top: 7rem;
+  font-family: "Poppins", sans-serif;
+  /* font-family: "Charlie", sans-serif; */
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.7;
+  width: 50%;
+  height: 500px;
+  /* background-color: red; */
+}
+.right img {
+  position: absolute;
+  right: 15%;
+  /* left: 60%; */
+  top: 20%;
+
+  max-width: 300px;
+  height: 350px;
+}
+
+.cta {
+  position: relative;
+  top: 25px;
+  left: 0;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+
+  width: 80%;
+  height: 80px;
+  /* background: red; */
+}
+
+button {
+  color: white;
+  background-color: blue;
+  border-radius: 10px;
+  border: none;
+  padding: 20px;
+  font-size: 14px;
+  margin-left: 10px;
+
+  text-align: left;
+}
+input {
+  width: 60%;
+  height: 60px;
+  border-radius: 5px;
+  /* padding: 4%; */
+  border: 1px grey;
+  /* height: 50px; */
+  text-align: left;
+  font-size: 24px;
+  border: none;
+}
